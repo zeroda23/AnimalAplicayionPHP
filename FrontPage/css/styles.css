@@ -1,0 +1,249 @@
+#header{
+    background-color: white;
+    height: 70px; 
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 10px;
+}
+
+#header img{
+    margin-top: 5px;
+    height: 50px;
+    margin-left: 8px;
+}
+
+#menu{
+    background-color: transparent; 
+    margin-left: -8px; 
+    width: 250px; 
+    height: 600px;
+    background: #ffffff;
+    float: left;
+}
+
+#menu ul{
+    list-style: none;
+    width: 100%;
+    padding-left: 0px;
+}
+
+#menu ul li{
+    height: 37px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.activated{
+    background-color: #dbdbdb;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#menu ul li:hover{
+    background-color: #dbdbdb;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul li a img{
+    text-decoration: none;
+    width: 20px;
+
+}
+
+#menu ul li a img:hover{
+    text-decoration: none;
+    color: black;
+    width: 20px;
+}
+
+.contenedorCenter{
+    width: 830px;
+    height: 490px;
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 350px;
+}
+
+.loginSection{
+    display: inline;
+    padding-left: 40px;
+    padding-top: 125px;
+}
+
+#contenedorAlta{
+    margin-top: 10px;
+}
+
+.contenedorDerecha {
+    float: right;
+}
+
+.contenedorIzquierda {
+    float: left;
+}
+
+#content{
+    float: right;
+    width: 1250px;
+    border-left: 1px solid #f31212;
+    border-top: 1px solid #eb0000;
+}
+
+#contenedorData{
+    width: 100%;
+    height: 590px;
+    border: 0px;
+    padding: 5px;
+}
+
+.contenedorLogin{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px;
+}
+
+.contenedorLogin img{
+    width: 450px;
+    height: 100%;
+}
+
+input[type=text]{
+    width: 282px;
+    height: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid gray; 
+}
+
+input[type=password]{
+    width: 282px;
+    height: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid gray; 
+}
+
+input[type=submit]{
+    width: 280px;
+    height: 35px;
+    background-color: #05053d;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #202083;
+}
+
+select{
+    width: 282px;
+    height: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid gray; 
+}
+
+textarea{
+    width: 400px;
+    height: 161px;
+    border-radius: 3px;
+}
+
+#error{
+    color: red;
+}
+
+#contenedorFooter{
+    background-color: #05053d;
+    margin-left: -7px;
+    height: 75px;
+    margin-bottom: -8px;
+    display: table;
+    width: 101%;
+}
+
+#contenedorFooter .socialInformation {
+    display: inline;
+    padding-left: 30px;
+}
+
+#contenedorFooter .socialInformation img{
+    width: 30px;
+    margin-top: 20px;
+}
+
+#contenedorFooter .socialInformation a{
+    color:white;
+    padding-left: 10px;
+}
+
+table {
+    border: 1px solid #250b8c; width: 100%;
+}
+
+table thead tr{
+    height: 40px;
+}
+
+table thead tr th{
+    border-bottom: 1px solid gray;
+}
+
+table tbody tr{
+    border: 1px solid gray; height: 45px;
+}
+
+table tbody tr:hover{
+    background-color: #e1e1e1;
+}
+
+table tbody tr td{
+    padding-left: 10px; border-right: 1px solid gray; 
+}
+
+table tbody tr td.actions{
+    padding-left: 10px;
+    text-align: center;
+    border-right: 0px;
+}
+
+table tbody tr td img{
+    width: 20px; 
+    cursor: pointer;
+}
+
+#buttonDelete{
+    float: right; 
+    background-color: red;
+}
+
+#buttonDelete :hover{
+    background-color: tomato;
+}
+
+#block{
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 758px;
+    background-color: #808080cf;
+    visibility: hidden;
+}
